@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_general_projects",
+  "info": {
+    "displayName": "projects"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "image": {
+      "displayName": "ImageWithLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "general.image-with-link"
+    }
+  }
+}

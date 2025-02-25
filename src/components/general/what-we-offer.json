@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_general_what_we_offers",
+  "info": {
+    "displayName": "whatWeOffer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subheading": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "offerCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.offert-card"
+    }
+  }
+}

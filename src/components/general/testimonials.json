@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_general_testimonials",
+  "info": {
+    "displayName": "testimonials"
+  },
+  "options": {},
+  "attributes": {
+    "testimonialsText": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "testimonialsCard": {
+      "displayName": "testimonialCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "general.testimonial-card"
+    }
+  }
+}

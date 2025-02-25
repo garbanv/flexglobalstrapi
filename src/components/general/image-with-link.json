@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_general_image_with_links",
+  "info": {
+    "displayName": "ImageWithLink"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imageLink": {
+      "type": "string"
+    }
+  }
+}

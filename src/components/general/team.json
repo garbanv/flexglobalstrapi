@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_general_teams",
+  "info": {
+    "displayName": "team"
+  },
+  "options": {},
+  "attributes": {
+    "teamText": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "teamCard": {
+      "displayName": "teamCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "general.team-card"
+    }
+  }
+}

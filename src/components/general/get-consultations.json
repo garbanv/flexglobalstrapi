@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_general_get_consultations",
+  "info": {
+    "displayName": "getConsultations",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "getConsultationsText": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "callToAction": {
+      "type": "string"
+    },
+    "callToActionUrl": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

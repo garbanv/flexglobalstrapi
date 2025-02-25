@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_general_team_cards",
+  "info": {
+    "displayName": "teamCard"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "memberLink": {
+      "type": "string"
+    }
+  }
+}

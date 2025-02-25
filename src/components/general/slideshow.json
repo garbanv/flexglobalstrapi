@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_general_slideshows",
+  "info": {
+    "displayName": "Slideshow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subHeading": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "callToAction": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

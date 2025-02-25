@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_general_content_sides",
+  "info": {
+    "displayName": "contentSide",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "contentSide": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "default": "right",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "contentTitleLine1": {
+      "type": "string"
+    },
+    "contentTitleLine2": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "sectionId": {
+      "type": "string"
+    }
+  }
+}

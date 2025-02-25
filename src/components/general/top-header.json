@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_general_top_headers",
+  "info": {
+    "displayName": "TopHeader",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "mainText": {
+      "type": "string"
+    },
+    "workingDays": {
+      "type": "string"
+    }
+  }
+}
