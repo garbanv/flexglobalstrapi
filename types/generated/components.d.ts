@@ -88,6 +88,20 @@ export interface GeneralProjects extends Struct.ComponentSchema {
   };
 }
 
+export interface GeneralServiceCard extends Struct.ComponentSchema {
+  collectionName: 'components_general_service_cards';
+  info: {
+    description: '';
+    displayName: 'serviceCard';
+  };
+  attributes: {
+    description: Schema.Attribute.Text;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    link: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface GeneralSlideshow extends Struct.ComponentSchema {
   collectionName: 'components_general_slideshows';
   info: {
@@ -191,6 +205,7 @@ declare module '@strapi/strapi' {
       'general.image-with-link': GeneralImageWithLink;
       'general.offert-card': GeneralOffertCard;
       'general.projects': GeneralProjects;
+      'general.service-card': GeneralServiceCard;
       'general.slideshow': GeneralSlideshow;
       'general.team': GeneralTeam;
       'general.team-card': GeneralTeamCard;

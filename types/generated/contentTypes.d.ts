@@ -566,6 +566,12 @@ export interface ApiServiceService extends Struct.SingleTypeSchema {
       'api::service.service'
     >;
     publishedAt: Schema.Attribute.DateTime;
+    serviceCard: Schema.Attribute.Component<'general.service-card', true> &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

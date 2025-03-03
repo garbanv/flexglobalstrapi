@@ -58,6 +58,17 @@
         }
       },
       "component": "general.content-side"
+    },
+    "serviceCard": {
+      "displayName": "serviceCard",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "general.service-card"
     }
   }
 }
