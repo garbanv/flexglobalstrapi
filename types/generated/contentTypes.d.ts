@@ -412,7 +412,7 @@ export interface ApiAboutAbout extends Struct.SingleTypeSchema {
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::about.about'>;
     publishedAt: Schema.Attribute.DateTime;
-    team: Schema.Attribute.Component<'general.team-card', true> &
+    team: Schema.Attribute.Component<'general.team', false> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
